@@ -300,15 +300,15 @@ coding[=:]\s*([-\w.]+)
 ### 关键字
 
 关键字，是Python中具有特殊语义的符号。Python3.6中，所有的关键字列表如下：
-|-|-|-|-|-|
-|---|---|---|---|---|
-|False	|class	  |  finally|	 is	     |   return|
-|None	|continue	|for	        |lambda	    |try|
-|True	|def	       | from	    |nonlocal	|while|
-|and	   | del	   |     global	|not	     |   with|
-|as	    |elif	  |  if	        |or	        |yield|
-|assert	|else    |	import	    |pass	|
-|break	|except	  |  in	        |raise	|
+```
+False	class	    finally	    is	        return
+None	continue	for	        lambda	    try
+True	def	        from	    nonlocal	while
+and	    del	        global	    not	        with
+as	    elif	    if	        or	        yield
+assert	else    	import	    pass	
+break	except	    in	        raise	
+```
 
 我们可以通过如下程序打印Python中所有的关键字列表。
 ```
